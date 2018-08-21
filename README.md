@@ -50,7 +50,7 @@ pipeline:
 python -m rasa_nlu.load_vector data/wiki.zh.vec zh zh_models
 ```
 
-## 5.Train model by runnint
+## 5.Train model by running
 ```
 python -m rasa_nlu.train -c sample_configs/config_spacy_jieba.yml --data data/examples/rasa/demo-rasa_zh.json --path models
 ```
